@@ -1,0 +1,24 @@
+
+#
+# Thank you for downloading DOptimizer.
+# You are currently using v1.0.0
+#
+# The plugin is allowing to disable the AI of some mobs to increase performance.
+#
+# Commands:
+#   /optimizer disable <group_name> - Disables the AI of all the mobs who belong to the group.
+#   /optimizer enable <group_name> - Enabled the AI of all the mobs who belong to the group.
+#   /optimizer groups - Shows you what groups are enabled and what are disabled.
+#   /optimizer reload - Reloads the groups
+#
+# Permissions:
+#   optimizer.use - Allows you to use the commands listed above.
+#
+
+groups:
+  farm_animals:
+    - PIG
+    - SHEEP
+  village:
+    - VILLAGER
+    - IRON_GOLEM
